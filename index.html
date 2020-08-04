@@ -81,7 +81,7 @@
     <nav class="bd-subnavbar pt-2 pb-3 pb-md-2" aria-label="Secondary navigation">
         <div class="container-xxl d-flex align-items-md-center flex-wrap">
             <form class="bd-search position-relative mb-2 mb-md-0 mr-auto">
-                <span class="algolia-autocomplete algolia-autocomplete-left" style="position: relative; display: inline-block; direction: ltr;">
+                <span class="algolia-autocomplete algolia-autocomplete-left">
                     <input type="search" class="form-control ds-input" id="search-input" placeholder="Search docs..." aria-label="Search docs for..." autocomplete="off" data-docs-version="5.0" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-owns="algolia-autocomplete-listbox-0" dir="auto" style="position: relative; vertical-align: top;">
                     <div class="ds-dataset-1"></div>
                 </span>
@@ -103,14 +103,18 @@
             </div>
 
             <button class="btn bd-search-docs-toggle d-md-none p-0 ml-3 order-3 ml-auto" type="button" data-toggle="collapse" data-target="#bd-docs-nav" aria-controls="bd-docs-nav" aria-expanded="false" aria-label="Toggle docs navigation">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img"><title>Menu</title><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img">
+                    <title>Menu</title>
+                    <path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path>
+                </svg>
             </button>
         </div>
     </nav>
 
     <div class="container-xxl my-4 bd-layout">
         <div class="bd-sidebar">
-            <nav class="collapse bd-links" id="bd-docs-nav" aria-label="Docs navigation"><ul class="list-unstyled mb-0">
+            <nav class="collapse bd-links" id="bd-docs-nav" aria-label="Docs navigation">
+                <ul class="list-unstyled mb-0">
 
                 <li class="my-1">
                     <a class="d-inline-flex align-items-center rounded collapsed" data-toggle="collapse" href="#getting-started-collapse" role="button" aria-expanded="false">
